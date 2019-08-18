@@ -1,0 +1,14 @@
+C:\Apps\AspNetCore\NorthwindCafe.Web\bin\Debug\netcoreapp2.1\NorthwindCafe.Web.deps.json
+C:\Apps\AspNetCore\NorthwindCafe.Web\bin\Debug\netcoreapp2.1\NorthwindCafe.Web.runtimeconfig.json
+C:\Apps\AspNetCore\NorthwindCafe.Web\bin\Debug\netcoreapp2.1\NorthwindCafe.Web.runtimeconfig.dev.json
+C:\Apps\AspNetCore\NorthwindCafe.Web\bin\Debug\netcoreapp2.1\NorthwindCafe.Web.dll
+C:\Apps\AspNetCore\NorthwindCafe.Web\bin\Debug\netcoreapp2.1\NorthwindCafe.Web.pdb
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.csprojAssemblyReference.cache
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.csproj.CoreCompileInputs.cache
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.RazorAssemblyInfo.cache
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.RazorAssemblyInfo.cs
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.AssemblyInfoInputs.cache
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.AssemblyInfo.cs
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.RazorTargetAssemblyInfo.cache
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.dll
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.pdb
