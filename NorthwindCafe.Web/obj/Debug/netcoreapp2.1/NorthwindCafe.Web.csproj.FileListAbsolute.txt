@@ -12,3 +12,12 @@ C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.A
 C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.RazorTargetAssemblyInfo.cache
 C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.dll
 C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.pdb
+C:\Apps\AspNetCore\NorthwindCafe.Web\bin\Debug\netcoreapp2.1\NorthwindCafe.Web.Views.dll
+C:\Apps\AspNetCore\NorthwindCafe.Web\bin\Debug\netcoreapp2.1\NorthwindCafe.Web.Views.pdb
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.TagHelpers.input.cache
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.TagHelpers.output.cache
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.RazorCoreGenerate.cache
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.RazorTargetAssemblyInfo.cs
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.Views.pdb
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\NorthwindCafe.Web.csproj.CopyComplete
+C:\Apps\AspNetCore\NorthwindCafe.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
