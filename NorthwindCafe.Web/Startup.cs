@@ -26,6 +26,7 @@ namespace NorthwindCafe.Web
             }
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            app.UseMvc();
         }
     }
 }
