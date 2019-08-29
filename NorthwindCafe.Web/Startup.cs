@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using log4net.Repository.Hierarchy;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -10,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NorthwindCafe.Web.Data;
 using NorthwindCafe.Web.Models;
+using Microsoft.Extensions.Logging;
+
 
 namespace NorthwindCafe.Web
 {
@@ -32,15 +35,16 @@ namespace NorthwindCafe.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
             var connectionString = Startup.Configuration["Data:NorthwindContextConnection"];
             services.AddDbContext<NorthwindContext>(options => options.UseSqlServer(connectionString));
             services.AddScoped<IProductRepository, ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, NorthwindContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, NorthwindContext context, Microsoft.Extensions.Logging.ILoggerFactory loggerFactory)
         {
+            loggerFactory.AddLog4Net();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
