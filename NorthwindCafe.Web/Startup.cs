@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NorthwindCafe.Web.Models;
 
 namespace NorthwindCafe.Web
 {
@@ -31,6 +33,7 @@ namespace NorthwindCafe.Web
             services.AddMvc();
 
             var connectionString = Startup.Configuration["Data:NorthwindContextConnection"];
+            services.AddDbContext<NorthwindContext>(options => options.UseSqlServer(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
