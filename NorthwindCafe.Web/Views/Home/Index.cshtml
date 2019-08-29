@@ -1,1 +1,22 @@
-﻿<h3>Index</h3>
+﻿@model IEnumerable<Product>
+
+
+<div class="row">
+    @foreach (var p in Model)
+    {
+        <div class="col-md-4" style="margin-top:20px">
+            <div class="row">
+                <div class="col-md-4 text-right"><strong>Product Name:</strong></div><div class="col-md-4 text-left"> @p.Name</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-right"><strong>Description:</strong></div><div class="col-md-4">@p.Description</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-right"><strong>Price:</strong></div><div class="col-md-4">@p.Price.ToString("c")</div>
+            </div>
+            <div class="row">
+                <div class="col-md-7 text-right"><button class="btn btn-primary">Buy</button></div>
+            </div>
+        </div>
+    }
+</div>
