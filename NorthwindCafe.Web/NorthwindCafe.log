@@ -1,0 +1,26 @@
+2019-08-29 00:19:54,000  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal column 'Price' on entity type 'OrderDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+ 2019-08-29 00:19:54,026  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: No type was specified for the decimal column 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+ 2019-08-29 00:19:54,088  INFO Microsoft.EntityFrameworkCore.Infrastructure.? [?] - MESSAGE: Entity Framework Core 2.1.11-servicing-32099 initialized 'NorthwindContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+ 2019-08-29 00:19:54,190  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+ 2019-08-29 00:19:54,331  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END
+ 2019-08-29 00:19:54,623  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:50051/  
+ 2019-08-29 00:19:54,774  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NorthwindCafe.Web.Controllers.HomeController (NorthwindCafe.Web).
+ 2019-08-29 00:19:54,789  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method NorthwindCafe.Web.Controllers.HomeController.Index (NorthwindCafe.Web) - Validation state: Valid
+ 2019-08-29 00:19:54,791  INFO Microsoft.EntityFrameworkCore.Infrastructure.? [?] - MESSAGE: Entity Framework Core 2.1.11-servicing-32099 initialized 'NorthwindContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+ 2019-08-29 00:19:54,825  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+ORDER BY [p].[Name]
+ 2019-08-29 00:19:54,923  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action method NorthwindCafe.Web.Controllers.HomeController.Index (NorthwindCafe.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 132.1453ms.
+ 2019-08-29 00:19:54,950  INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.? [?] - MESSAGE: Executing ViewResult, running view Index.
+ 2019-08-29 00:19:55,157  INFO Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.? [?] - MESSAGE: Executed ViewResult - view Index executed in 224.4486ms.
+ 2019-08-29 00:19:55,157  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action NorthwindCafe.Web.Controllers.HomeController.Index (NorthwindCafe.Web) in 382.4912ms
+ 2019-08-29 00:19:55,169  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 545.7711ms 200 text/html; charset=utf-8
+ 
